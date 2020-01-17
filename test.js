@@ -1,4 +1,4 @@
-setCookie = function (cname, cvalue, exphours) {
+var setCookie = function (cname, cvalue, exphours) {
         if (!module.isCookiesAccepted()) {
             return;
         }
